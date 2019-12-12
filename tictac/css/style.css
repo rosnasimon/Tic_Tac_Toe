@@ -1,0 +1,162 @@
+body
+{
+   font-family: Kurale,serif;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+
+h1{
+
+  margin-top: 5%;
+  margin-left: -5%;
+  color: #fff;
+  font-size: 80px;
+  font-weight: bold;
+}
+h4
+{
+  color: #fff;
+}
+h3
+{
+  margin-top: -5%;
+  margin-left: 80%;
+  margin-right: -25%;
+  font-size: 40px;
+  color: #f9ef94;
+  font-weight: bold;
+}
+#start
+{
+  visibility: hidden;
+  font-weight: bold;
+  color: red;
+}
+.p1
+{
+  margin-left: 22%;
+  font-size: 25px;
+
+}
+#p1
+{
+  text-align: center;
+  font-size: 30px;
+  width: 20%;
+}
+#p2
+{
+  width: 20%;
+  font-size: 30px;
+  text-align: center;
+}
+#playbutton
+{
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-left: 5%;
+  color: #710096;
+  font-size: 25px;
+  font-weight: bold;
+  width: 10%;
+}
+#playbutton:hover
+{
+  background-color: #03a9f49e;
+  color: #fff;
+}
+input[type=text]
+{
+  border-radius: 12px;
+  border: 1px solid black;
+  margin-left: 1%;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  width: 20%;
+}
+#message
+{
+    margin-top: -6%;
+    margin-left: 64%;
+    visibility: hidden;
+    color: #fff;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 15%;
+}
+.gridsection
+{
+  visibility: hidden;
+  margin-left: 47%;
+  margin-top: -15%;
+  display: grid;
+  grid-column-gap: 5px;
+  grid-template-columns: auto auto auto;
+  padding: 2%;
+  position:absolute;
+
+}
+.grid{
+  border-radius: 8px;
+  background-color:#fff;
+  color: black;
+  font-weight: bold;
+  font-size: 60px;
+  padding:10px;
+  height:90px;
+  margin:5px;
+  width:100px;
+  text-align: center;
+}
+.grid:hover{
+  background-color:#03a9f49e;
+  cursor: crosshair;
+
+}
+#reset
+{
+  visibility: hidden;
+  position:absolute;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid black;
+  color: red;
+  margin-left: 62%;
+  margin-top: 10%;
+  font-size: 25px;
+  font-weight: bold;
+  width: 10%;
+}
+#reset:hover
+{
+  background-color: #03a9f49e;
+  color: #fff;
+}
+#replay
+{
+  visibility: hidden;
+  position:absolute;
+  margin-top: 10%;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 1px solid black;
+  color: red;
+  margin-left: 48%;
+  font-size: 25px;
+  font-weight: bold;
+  width: 10%;
+}
+#replay:hover
+{
+  background-color: #03a9f49e;
+  color: #fff;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
