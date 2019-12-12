@@ -1,7 +1,7 @@
 
 var box=document.querySelectorAll(".gridsection div");
 var msg=document.getElementById("message");
-var value=0,i,j=0,player1="S",player2="O";
+var value=0,i,j=0,player1="X",player2="O";
 
 function getP1()
 {
@@ -86,14 +86,14 @@ for(i=0;i<box.length;i++)
 
       window.alert("Game over!!");
     else {
-    if(this.innerHTML !== "S" && this.innerHTML !== "O")
+    if(this.innerHTML !== "X" && this.innerHTML !== "O")
     {
 
         if(value % 2 === 0)
         {
 
           console.log(value);
-          this.innerHTML = "S";
+          this.innerHTML = "X";
           possibilities();
           value+=1;
         }
@@ -114,7 +114,7 @@ for(i=0;i<box.length;i++)
 
 function start()
 {
-    if(player1==="S"&&player2==="O")
+    if(player1==="X"&&player2==="O")
     {
       document.getElementById("start").style.visibility="hidden";
       document.getElementById("play").style.visibility="hidden";
